@@ -1,4 +1,5 @@
 import * as Babel from 'babel-core';
+import * as Template from 'babel-template';
 
 import {runScripts} from './transformScriptTags';
 
@@ -43,6 +44,10 @@ function processOptions(options) {
 
 export function transform(code, options) {
   return Babel.transform(code, processOptions(options));
+}
+
+export function template(code, opts) {
+  return Template.default(code, opts);
 }
 
 export function transformFromAst(ast, code, options) {

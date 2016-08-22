@@ -104,6 +104,7 @@
     "babel-preset-stage-1": "^6.5.0",
     "babel-preset-stage-2": "^6.11.0",
     "babel-preset-stage-3": "^6.11.0",
+    "babel-template": "^6.9.0",
     "bluebird": "^3.4.1",
     "child-process-promise": "^2.0.3",
     "expect.js": "^0.3.1",
